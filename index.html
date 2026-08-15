@@ -135,6 +135,61 @@
         </article>
       </section>
 
+      <section class="utilities" id="tools" aria-labelledby="tools-title">
+        <div class="section-heading utilities-heading">
+          <p class="eyebrow">Open source / 04—05</p>
+          <div>
+            <h2 id="tools-title">Small tools for harder trust boundaries.</h2>
+            <p>Two focused utilities extracted from the way I review and ship AI-enabled software. Each repository includes tests, CI, an explicit limitation section, and a reproducible local workflow.</p>
+          </div>
+        </div>
+
+        <div class="utility-grid">
+          <article class="utility-card utility-card-wide">
+            <div class="utility-copy">
+              <p class="project-number">04 / Repository evidence</p>
+              <h3>ProofRepo</h3>
+              <p>An evidence-first CLI that maps README, tests, CI, licensing, reproducibility, env hygiene, visual proof, and collaboration signals without pretending to certify the repository.</p>
+              <ul class="utility-facts" role="list">
+                <li>Markdown and JSON reports</li>
+                <li>Configurable CI exit policy</li>
+                <li>3 tests; public CI passing</li>
+              </ul>
+              <a href="https://github.com/moriana55/proofrepo" target="_blank" rel="noreferrer">Inspect ProofRepo source and checks ↗</a>
+            </div>
+            <pre class="terminal-proof" aria-label="Example ProofRepo self-audit output"><span>$ proofrepo .</span>
+
+score    98 / 100
+pass     12
+warn      1
+fail      0
+
+boundary evidence ≠ certification</pre>
+          </article>
+
+          <article class="utility-card">
+            <div class="utility-copy">
+              <p class="project-number">05 / LLM reliability</p>
+              <h3>LLM Output Contract</h3>
+              <p>A provider-independent TypeScript library and CLI that extracts JSON from mixed model text, rejects unsafe object keys, bounds input and nesting, and validates the result against JSON Schema 2020-12.</p>
+              <ul class="utility-facts" role="list">
+                <li>Raw, fenced, and balanced extraction</li>
+                <li>Rejected values omitted from errors</li>
+                <li>9 tests; public CI passing</li>
+              </ul>
+              <a href="https://github.com/moriana55/llm-output-contract" target="_blank" rel="noreferrer">Inspect the contract boundary ↗</a>
+            </div>
+            <pre class="terminal-proof terminal-proof-light" aria-label="Example validated LLM output contract"><span>contract.parse(modelText)</span>
+
+{
+  ok: true,
+  source: "fence",
+  schema: "valid"
+}</pre>
+          </article>
+        </div>
+      </section>
+
       <section class="method" id="method" aria-labelledby="method-title">
         <div class="method-intro">
           <p class="eyebrow">How I work</p>
