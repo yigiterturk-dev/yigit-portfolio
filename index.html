@@ -137,10 +137,10 @@
 
       <section class="utilities" id="tools" aria-labelledby="tools-title">
         <div class="section-heading utilities-heading">
-          <p class="eyebrow">Open source / 04—05</p>
+          <p class="eyebrow">Open source / 04—06</p>
           <div>
             <h2 id="tools-title">Small tools for harder trust boundaries.</h2>
-            <p>Two focused utilities extracted from the way I review and ship AI-enabled software. Each repository includes tests, CI, an explicit limitation section, and a reproducible local workflow.</p>
+            <p>Three focused utilities extracted from the way I review and ship AI-enabled software. Each repository includes tests, CI, an explicit limitation section, and a reproducible local workflow.</p>
           </div>
         </div>
 
@@ -186,6 +186,28 @@ boundary evidence ≠ certification</pre>
   source: "fence",
   schema: "valid"
 }</pre>
+          </article>
+
+          <article class="utility-card utility-card-full">
+            <div class="utility-copy">
+              <p class="project-number">06 / Secret hygiene</p>
+              <h3>SecretProof</h3>
+              <p>A local-first Git secret scanner for worktrees, staged diffs, and bounded history. Findings expose a rule, location, severity, and one-way fingerprint—never the matched credential value.</p>
+              <ul class="utility-facts" role="list">
+                <li>Worktree, staged, and history modes</li>
+                <li>Text, Markdown, JSON, and SARIF</li>
+                <li>8 tests; public CI passing</li>
+              </ul>
+              <a href="https://github.com/moriana55/secretproof" target="_blank" rel="noreferrer">Inspect SecretProof's threat boundary ↗</a>
+            </div>
+            <pre class="terminal-proof terminal-proof-security" aria-label="Example SecretProof redacted scan output"><span>$ secretproof . --mode staged</span>
+
+scanned    22 files
+findings    0
+high        0
+medium      0
+
+matched values are never printed</pre>
           </article>
         </div>
       </section>
