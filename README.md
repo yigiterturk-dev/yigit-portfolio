@@ -4,12 +4,12 @@ An evidence-led personal portfolio for AI product development and full-stack pro
 
 ## Featured work
 
-- [ClinEntra](https://github.com/moriana55/clinentra) — evidence-first clinical-trial intelligence pilot
-- [VoiceOps Studio](https://github.com/moriana55/voiceops-studio) — multilingual voice-operations prototype
-- [Engineering Skills](https://github.com/moriana55/engineering-skills) — fourteen evidence-first Codex skills
-- [ProofRepo](https://github.com/moriana55/proofrepo) — repository showcase audit with bounded evidence claims
-- [LLM Output Contract](https://github.com/moriana55/llm-output-contract) — provider-independent JSON extraction and schema validation for model output
-- [SecretProof](https://github.com/moriana55/secretproof) — local-first Git secret scanning with redacted findings and SARIF output
+- [ClinEntra](https://github.com/yigiterturk-dev/clinentra) — evidence-first clinical-trial intelligence pilot
+- [VoiceOps Studio](https://github.com/yigiterturk-dev/voiceops-studio) — multilingual voice-operations prototype
+- [Engineering Skills](https://github.com/yigiterturk-dev/engineering-skills) — fourteen evidence-first Codex skills
+- [ProofRepo](https://github.com/yigiterturk-dev/proofrepo) — repository showcase audit with bounded evidence claims
+- [LLM Output Contract](https://github.com/yigiterturk-dev/llm-output-contract) — provider-independent JSON extraction and schema validation for model output
+- [SecretProof](https://github.com/yigiterturk-dev/secretproof) — local-first Git secret scanning with redacted findings and SARIF output
 
 ## Run locally
 
