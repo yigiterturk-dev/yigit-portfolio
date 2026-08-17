@@ -4,7 +4,7 @@ An evidence-led personal portfolio for AI product development and full-stack pro
 
 ## Featured work
 
-- [ClinEntra](https://github.com/yigiterturk-dev/clinentra) — evidence-first clinical-trial intelligence pilot
+- ClinEntra (private pilot) — evidence-first clinical-trial intelligence
 - [VoiceOps Studio](https://github.com/yigiterturk-dev/voiceops-studio) — multilingual voice-operations prototype
 - [Engineering Skills](https://github.com/yigiterturk-dev/engineering-skills) — fourteen evidence-first Codex skills
 - [ProofRepo](https://github.com/yigiterturk-dev/proofrepo) — repository showcase audit with bounded evidence claims
