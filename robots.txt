@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://moriana55.github.io/yigit-portfolio/sitemap.xml
+Sitemap: https://yigiterturk-dev.github.io/yigit-portfolio/sitemap.xml
